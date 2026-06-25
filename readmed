@@ -1,0 +1,80 @@
+# 🌐 Portfolio CV — Mame Diarra Ndir
+
+Portfolio personnel interactif réalisé dans le cadre du projet de
+Développement Web — Licence 2 Informatique,
+Université Iba Der Thiam de Thiès.
+
+---
+
+## 👩‍💻 À propos du projet
+
+Ce projet est un CV interactif sous forme de page web, conçu avec
+les technologies fondamentales du développement front-end :
+HTML5, CSS3 et JavaScript Vanilla.
+
+---
+
+## ✨ Fonctionnalités
+
+- 🌙 Mode sombre / clair (sauvegardé dans localStorage)
+- 📊 Barres de compétences animées au scroll
+- ✍️ Effet machine à écrire (section À propos)
+- 🍔 Menu hamburger responsive (mobile)
+- 📜 Barre de défilement en haut de page
+- ⬆️ Bouton retour en haut
+- 📩 Formulaire de contact avec validation JavaScript
+- 🖨️ Impression et téléchargement PDF du CV
+- 🔗 Liens actifs selon la section visible
+
+---
+
+## 🛠️ Technologies utilisées
+
+| Technologie        | Usage                                 |
+| ------------------ | ------------------------------------- |
+| HTML5              | Structure sémantique de la page       |
+| CSS3               | Mise en page, design, responsive      |
+| JavaScript Vanilla | Interactivité, animations, validation |
+| Google Fonts       | Polices Poppins et Inter              |
+
+> ⚠️ Aucun framework CSS (Bootstrap, Tailwind) ni bibliothèque
+> JavaScript (jQuery, React) n'a été utilisé.
+
+---
+
+## 📁 Structure du projet
+
+mon-cv/
+├── index.html → Page principale (HTML + CSS + JS)
+└── image/
+└── photo-profil.jpg → Photo de profil
+
+---
+
+## 🚀 Comment ouvrir le projet
+
+1. Télécharger ou cloner le projet
+2. Placer votre photo dans le dossier `image/` sous le nom `photo-profil.jpg`
+3. Ouvrir `index.html` dans un navigateur (Chrome ou Firefox)
+
+> Aucune installation requise. Le projet fonctionne directement
+> dans le navigateur.
+
+---
+
+## 🌍 Démo en ligne
+
+👉 [Voir le portfolio en ligne](https://ndirdiarra103-star.github.io/cv-diarra/)
+
+---
+
+## 📬 Contact
+
+- 📧 diarrandir103@gmail.com
+- 📞 +221 701098388
+- 📍 Dakar, Sénégal
+- 🐙 [GitHub](https://github.com/ndirdiarra103-star)
+
+---
+
+© 2025 Mame Diarra Ndir — Tous droits réservés

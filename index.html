@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV - Mame Diarra Ndir</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+
+<body id="top">
+
+    <!-- Barre de progression du scroll -->
+    <div id="scrollBar"></div>
+
+    <!-- =========================
+         HEADER
+    ========================= -->
+
+    <header>
+
+        <div class="profil">
+            <img src="../image/WhatsApp Image 2026-06-01 at 19.19.10 diarra.jpeg"
+                alt="Photo de profil Mame Diarra Ndir">
+
+            <h1>Mame Diarra Ndir</h1>
+
+            <p>
+                Étudiante en Licence Informatique
+            </p>
+        </div>
+
+        <div class="contact-header">
+            <p>📧 diarrandir103@gmail.com</p>
+            <p>📞 +221 701 098 388</p>
+            <p>📍 Dakar, Sénégal</p>
+        </div>
+        <!-- =========================
+         NAVIGATION
+    ========================= -->
+
+    <nav>
+
+        <ul class="nav-liens">
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#experiences">Expériences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#langues">Langues</a></li>
+            <li><a href="#interets">Centres d'intérêt</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </nav>
+
+
+    </header>
+
+    
+    <!-- =========================
+         MAIN
+    ========================= -->
+
+    <main>
+
+        <!-- À PROPOS -->
+
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+
+            <p>
+                Étudiante en Licence Informatique, passionnée par le développement
+                web, la programmation et les technologies numériques.
+                Je souhaite devenir développeuse web et améliorer mes
+                compétences en front-end et back-end.
+            </p>
+        </section>
+
+        <!-- FORMATION -->
+
+        <section id="formation">
+            <h2>Formation</h2>
+
+            <article>
+                <h3>Licence Informatique</h3>
+                <p>Université Iba Der Thiam de Thiès (2022 - 2025)</p>
+            </article>
+
+            <article>
+                <h3>Baccalauréat Scientifique</h3>
+                <p>Lycée Jaxaay de Dakar (2023 - 2024)</p>
+            </article>
+        </section>
+
+        <!-- COMPÉTENCES -->
+
+        <section id="competences">
+            <h2>Compétences</h2>
+
+            <div class="skill">
+                <p>Langage C</p>
+                <div class="bar">
+                    <div class="progress" data-value="80"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>SQL / Merise</p>
+                <div class="bar">
+                    <div class="progress" data-value="80"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>Cisco Packet Tracer</p>
+                <div class="bar">
+                    <div class="progress" data-value="60"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>HTML / CSS</p>
+                <div class="bar">
+                    <div class="progress" data-value="80"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="bar">
+                    <div class="progress" data-value="60"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPÉRIENCES -->
+
+        <section id="experiences">
+            <h2>Expériences</h2>
+
+            <article>
+                <ul>
+                    <li>Projets académiques en développement web</li>
+                    <li>Modélisation de bases de données (Merise)</li>
+                    <li>Travaux en équipe universitaire</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- PROJETS -->
+
+        <section id="projets">
+            <h2>Projets réalisés</h2>
+
+            <article>
+                <h3>CV interactif (HTML/CSS/JS)</h3>
+                <p>Création d'un CV dynamique et responsive.</p>
+            </article>
+
+            <article>
+                <h3>Portfolio personnel</h3>
+                <p>Site web hébergé sur GitHub Pages.</p>
+            </article>
+        </section>
+
+        <!-- LANGUES -->
+
+        <section id="langues">
+            <h2>Langues</h2>
+
+            <ul>
+                <li>Wolof — Natif</li>
+                <li>Français — Avancé</li>
+                <li>Anglais — Débutant</li>
+            </ul>
+        </section>
+
+        <!-- CENTRES D'INTÉRÊT -->
+
+        <section id="interets">
+            <h2>Centres d'intérêt</h2>
+
+            <ul>
+                <li>Programmation</li>
+                <li>Lecture</li>
+                <li>Cinéma</li>
+                <li>Sport</li>
+                <li>Danse</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="nom"
+                    placeholder="Votre nom"
+                    required>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Votre email"
+                    required>
+
+                <textarea
+                    id="message"
+                    placeholder="Votre message"
+                    required></textarea>
+
+                <button type="submit">
+                    Envoyer
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer>
+
+        <div class="actions">
+
+            <button id="themeBtn">
+                🌙 Mode sombre
+            </button>
+
+            <button id="printBtn">
+                🖨️ Imprimer
+            </button>
+
+            <button id="downloadBtn">
+                📄 Télécharger PDF
+            </button>
+
+        </div>
+
+        <p>
+            © 2026 - Mame Diarra Ndir | CV interactif
+        </p>
+
+        <p>
+            <a href="https://github.com/" target="_blank">
+                GitHub
+            </a>
+            |
+            <a href="#" target="_blank">
+                LinkedIn
+            </a>
+        </p>
+
+    </footer>
+
+    <!-- Bouton retour en haut -->
+
+    <button id="topBtn">
+        ⬆
+    </button>
+
+    <!-- JS -->
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
